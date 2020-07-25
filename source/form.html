@@ -13,7 +13,7 @@
 		 		<img src="" class="logo-name header__logo-name">
 		 	</a>
 		 	<button class="btn-open-menu">
-		 		<span class="visually-hidden"> Открыть меню</span>
+		 		<span class="visually-hidden">Открыть меню</span>
 		 	</button>
 		</header>
 		<main class="form-main">
@@ -37,7 +37,7 @@
 				</fieldset>
 				<fieldset class="programme-choice">
 					<label>
-						<input type="radio" class="programme-choice__radio programme-choice__radio--active">
+						<input type="radio" class="programme-choice__radio programme-choice__radio--checked">
 						<span>похудение</span>
 					</label>
 					<label>
@@ -53,24 +53,41 @@
 					<legend>Контактные данные
 					(владельца кота)</legend>
 					<label>
-						<span>E-mail:*</span>
-						<input type="email" placeholder="kuklachev@gmail.com">
+						<span class="contacts__name">E-mail:*</span>
+						<input type="email" placeholder="kuklachev@gmail.com" class="contacts__input">
 					</label>
 					<label>
-						<span>Телефон:*</span>
-						<input type="tel" placeholder="8 (960) 900-60-90">
+						<span class="contacts__name">Телефон:*</span>
+						<input type="tel" placeholder="8 (960) 900-60-90" class="contacts__input">
 					</label>
 				</fieldset>
 				<fieldset>
 					<legend>Комментарий</legend>
 					<label>
-						<textarea placeholder="Расскажите обо всех повАдках кота">
+						<textarea placeholder="Расскажите обо всех повaдках кота">
 					</label>
 				</fieldset>
-				<fieldset class="additional-info">
-					
+				<fieldset class="addition">
+					<label>
+						<input type="checkbox" class="addition__checkbox addition__checkbox--checked">
+						<span>сахарозаменитель</span>
+					</label>
+					<label>
+						<input type="checkbox" class="addition__checkbox addition__checkbox--checked">
+						<span>питьевая вода</span>
+					</label>
+					<label>
+						<input type="checkbox" class="addition__checkbox addition__checkbox--checked">
+						<span>молоко</span>
+					</label>
+					<label>
+						<input type="checkbox" class="addition__checkbox addition__checkbox--checked">
+						<span>витамины</span>
+					</label>
 				</fieldset>
+				<button class="form-btn">отправить заявку</button>
 			</form>
+			<p class="inputs-note">* — Обязательные поля</p>
 		</main>
 	</body>
 </html>
