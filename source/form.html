@@ -17,49 +17,60 @@
 		 	</button>
 		</header>
 		<main class="form-main">
-			<div class="pet-data">
-				<h1>Подбор программы</h1>
-				<span>Заполните анкету, и мы подберем
-				программу питания для вашего кота</span>
-				<label>
-					<span>ИМЯ:*</span>
-					<input type="text" placeholder="барсик">
-				</label>
-				<label>
-					<span>Вес (кг):*</span>
-					<input type="text" placeholder="7">
-				</label>
-				<label>
-					<span>Возраст (лет):</span>
-					<input type="text" placeholder="7">
-				</label>
-			</div>
-			<div class="programme-choice">
-				<label>
-					<input type="radio" class="programme-choice__radio programme-choice__radio--active">
-					<span>похудение</span>
-				</label>
-				<label>
-					<input type="radio" class="programme-choice__radio">
-					<span>Набор массы</span>
-				</label>
-				<label>
-					<input type="radio" class="programme-choice__radio">
-					<span>Не знаю (Нужен ваш совет)</span>
-				</label>
-			</div>
-			<div class="contacts">
-				<h2>Контактные данные
-				(владельца кота)</h2>
-				<label>
-					<span>E-mail:*</span>
-					<input type="email" placeholder="kuklachev@gmail.com">
-				</label>
-				<label>
-					<span>Телефон:*</span>
-					<input type="tel" placeholder="8 (960) 900-60-90">
-				</label>
-			</div>
+			<form action="" method="post">
+				<fieldset class="pet-data">
+					<legend>Подбор программы</legend>
+					<span>Заполните анкету, и мы подберем
+					программу питания для вашего кота</span>
+					<label>
+						<span>ИМЯ:*</span>
+						<input type="text" placeholder="барсик">
+					</label>
+					<label>
+						<span>Вес (кг):*</span>
+						<input type="text" placeholder="7">
+					</label>
+					<label>
+						<span>Возраст (лет):</span>
+						<input type="text" placeholder="7">
+					</label>
+				</fieldset>
+				<fieldset class="programme-choice">
+					<label>
+						<input type="radio" class="programme-choice__radio programme-choice__radio--active">
+						<span>похудение</span>
+					</label>
+					<label>
+						<input type="radio" class="programme-choice__radio">
+						<span>Набор массы</span>
+					</label>
+					<label>
+						<input type="radio" class="programme-choice__radio">
+						<span>Не знаю (Нужен ваш совет)</span>
+					</label>
+				</fieldset>
+				<fieldset class="contacts">
+					<legend>Контактные данные
+					(владельца кота)</legend>
+					<label>
+						<span>E-mail:*</span>
+						<input type="email" placeholder="kuklachev@gmail.com">
+					</label>
+					<label>
+						<span>Телефон:*</span>
+						<input type="tel" placeholder="8 (960) 900-60-90">
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>Комментарий</legend>
+					<label>
+						<textarea placeholder="Расскажите обо всех повАдках кота">
+					</label>
+				</fieldset>
+				<fieldset class="additional-info">
+					
+				</fieldset>
+			</form>
 		</main>
 	</body>
 </html>
