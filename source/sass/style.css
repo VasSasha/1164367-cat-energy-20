@@ -4,6 +4,7 @@
 	--green: #68B738;
 	--white: #FFFFFF;
 	--darkgrey: #444444;
+	--black: ;
 }
 body{
 	margin: 0;
@@ -31,6 +32,15 @@ body{
 .heading--index{
 	color: var(--white);
 }
+.heading--h3{
+	font-size: 24px;
+	line-height: 24px;
+}
+.heading--h4{
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
 .btn-order{
 	background-color: var(--green);
 	color: var(--white);
@@ -54,6 +64,11 @@ body{
 .more-items__btn{
 	background-color: var(--blackground);
 	color: var(--darkgrey);
+}
+.more-items__paragraph{
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 
