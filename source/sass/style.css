@@ -1,0 +1,59 @@
+:root {
+	--blackground: #F2F2F2;
+	--grey: #EBEBEB;
+}
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+*, 
+*::before, 
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header{
+
+}
+.footer{
+	background-color: var(--blackground);
+}
+.heading{
+	font-family: Oswald, Arial, sans-serif;
+}
+.heading--h1{
+	font-size: 36px;
+	line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
