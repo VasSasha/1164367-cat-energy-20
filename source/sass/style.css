@@ -1,6 +1,9 @@
 :root {
 	--blackground: #F2F2F2;
 	--grey: #EBEBEB;
+	--green: #68B738;
+	--white: #FFFFFF;
+	--darkgrey: #444444;
 }
 body{
 	margin: 0;
@@ -25,6 +28,10 @@ body{
 	font-size: 36px;
 	line-height: 36px;
 }
+.heading--index{
+	color: var(--white);
+}
+
 
 
 
