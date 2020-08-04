@@ -4,7 +4,7 @@
 	--green: #68B738;
 	--white: #FFFFFF;
 	--darkgrey: #444444;
-	--black: ;
+	--black: #111111;
 }
 body{
 	margin: 0;
@@ -25,6 +25,9 @@ body{
 .location__address{
 	font-size: 14px;
 	line-height: 20px;
+	color: var(--darkgrey);
+}
+.developers__logo-name{
 	color: var(--darkgrey);
 }
 .heading{
