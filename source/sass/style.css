@@ -33,23 +33,28 @@ body{
 }
 .btn-order{
 	background-color: var(--green);
-	font-family: Oswald, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 40px;
 	color: var(--white);
 }
 .product__name{
 	font-family: Oswald, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 20px;
-	text-transform: uppercase;
 }
 .table{
 	font-size: 12px;
 	line-height: 16px;
 	color: var(--darkgrey);
 }
-
+.button{
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.more-items__btn{
+	background-color: var(--blackground);
+	color: var(--darkgrey);
+}
 
 
 
