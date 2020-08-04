@@ -22,6 +22,11 @@ body{
 .footer{
 	background-color: var(--blackground);
 }
+.location__address{
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--darkgrey);
+}
 .heading{
 	font-family: Oswald, Arial, sans-serif;
 }
@@ -40,6 +45,10 @@ body{
 	font-size: 16px;
 	line-height: 16px;
 	text-transform: uppercase;
+}
+.heading--location{
+	font-size: 16px;
+	line-height: 18px;
 }
 .btn-order{
 	background-color: var(--green);
