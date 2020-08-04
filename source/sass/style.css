@@ -75,6 +75,9 @@ body{
 }
 .present__paragraph{
 	background-image: url(source/img/icon-gift.png);
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--white);
 }
 
 
