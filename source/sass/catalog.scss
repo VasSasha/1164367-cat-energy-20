@@ -6,9 +6,16 @@
 .more-items__btn{
 	background-color: var(--blackground);
 	color: var(--darkgrey);
+	&:hover,
+	&:focus{
+		background-color: var(--new-grey);
+	};
+	&:active{
+		opacity: .3;
+	}
 }
 .programme-btn{
-	
+
 	&:hover,
 	&:focus{
 		background-color: var(--bright-green);
