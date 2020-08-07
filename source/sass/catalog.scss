@@ -7,13 +7,16 @@
 	background-color: var(--blackground);
 	color: var(--darkgrey);
 }
-/*.programme-btn:hover,
-.programme-btn:focus{
-	background-color: var(--bright-green);
+.programme-btn{
+	
+	&:hover,
+	&:focus{
+		background-color: var(--bright-green);
+	};
+	&:active{
+		opacity: .3;
+	}
 }
-.programme-btn:active{
-	opacity: .3;	
-}*/
 .more-items__paragraph{
 	font-family: Oswald, Arial, sans-serif;
 	font-size: 16px;
