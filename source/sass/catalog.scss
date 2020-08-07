@@ -1,4 +1,20 @@
 
+.more-items__btn{
+	background-color: var(--blackground);
+	color: var(--darkgrey);
+}
+/*.programme-btn:hover,
+.programme-btn:focus{
+	background-color: var(--bright-green);
+}
+.programme-btn:active{
+	opacity: .3;	
+}*/
+.more-items__paragraph{
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
 .present{
 	background-image: url('../img/gift-bg.png'); 
 	height: 290px;
