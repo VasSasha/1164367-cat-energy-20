@@ -17,3 +17,41 @@ body{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+	color: var(--black);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.heading{
+	font-family: Oswald, Arial, sans-serif;
+}
+.heading--h1{
+	font-size: 36px;
+	line-height: 36px;
+}
+.heading--h2 {
+	font-size: 36px;
+	line-height: 40px;
+}
+.heading--index{
+	color: var(--white);
+}
+.heading--h3{
+	font-size: 24px;
+	line-height: 37px;
+	text-transform: uppercase;
+}
+.heading--h4{
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
