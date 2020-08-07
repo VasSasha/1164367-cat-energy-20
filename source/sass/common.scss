@@ -1,0 +1,19 @@
+:root {
+	--blackground: #F2F2F2;
+	--grey: #EBEBEB;
+	--green: #68B738;
+	--white: #FFFFFF;
+	--darkgrey: #444444;
+	--new-black: #111111;
+	--bright-green: #5EAA2F;
+}
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+*, 
+*::before, 
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
