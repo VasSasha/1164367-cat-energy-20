@@ -64,3 +64,14 @@ a{
 	list-style: none;
 	margin: 0;
 }
+.button--green{
+	background-color: var(--green);
+	color: var(--white);
+}
+.button{
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	text-transform: uppercase;
+	border: none;
+}
