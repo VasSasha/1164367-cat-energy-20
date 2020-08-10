@@ -34,27 +34,27 @@ a{
 }
 .heading{
 	font-family: Oswald, Arial, sans-serif;
-}
-.heading--h1{
+	&--h1{
 	font-size: 36px;
-	line-height: 36px;
-}
-.heading--h2 {
-	font-size: 36px;
-	line-height: 40px;
-}
-.heading--index{
-	color: var(--white);
-}
-.heading--h3{
-	font-size: 24px;
-	line-height: 37px;
-	text-transform: uppercase;
-}
-.heading--h4{
-	font-size: 16px;
-	line-height: 16px;
-	text-transform: uppercase;
+		line-height: 36px;
+	}
+	&--h2 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	&--index{
+		color: var(--white);
+	}
+	&--h3{
+		font-size: 24px;
+		line-height: 37px;
+		text-transform: uppercase;
+	}
+	&--h4{
+		font-size: 16px;
+		line-height: 16px;
+		text-transform: uppercase;
+	}
 }
 .table{
 	font-size: 12px;
@@ -65,14 +65,14 @@ a{
 	list-style: none;
 	margin: 0;
 }
-.button--green{
-	background-color: var(--green);
-	color: var(--white);
-}
 .button{
 	font-family: Oswald, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 40px;
 	text-transform: uppercase;
 	border: none;
+	&--green{
+	background-color: var(--green);
+	color: var(--white);
+	}
 }
