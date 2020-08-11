@@ -1,68 +1,68 @@
 .heading--gm,
 .heading--lw{
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .heading--lw{
-	background-image: url('../img/lose-weight.png');
+    background-image: url('../img/lose-weight.png');
 }
 .heading--gm{
-	background-image: url('../img/gain-weight.png');
+    background-image: url('../img/gain-weight.png');
 }
 .programme{
-	background-color: var(--background);
+    background-color: var(--background);
 }
 .programme__paragraph{
-	font-size: 14px;
-	line-height: 18px;
-	color:var(--darkgrey);
+    font-size: 14px;
+    line-height: 18px;
+    color:var(--darkgrey);
 }
 .programme__link{
-	font-family: Oswald, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 16px;
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
 }
 .introduction{
-	background-image: url('../img/indexbg.png'), url('../img/indexcan.png');
-	background-repeat: no-repeat;
-	background-position: , ;
-	height: 480px;
+    background-image: url('../img/indexbg.png'), url('../img/indexcan.png');
+    background-repeat: no-repeat;
+    background-position: , ;
+    height: 480px;
 }
 .working__description,
 .example__paragraph{
-	background-repeat: no-repeat;
-	font-size: 14px;
-	line-height: 18px;
-	color: var(--darkgrey);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--darkgrey);
 }
 .working__description--consist{
-	background-image: url('../img/working-1.png');
+    background-image: url('../img/working-1.png');
 }
 .working__description--use{
-	background-image: url('../img/working-2.png');
+    background-image: url('../img/working-2.png');
 }
 .working__description--reccomendation{
-	background-image: url('../img/working-3.png');
+    background-image: url('../img/working-3.png');
 }
 .working__description--results{
-	background-image: url('../img/working-4.png');
+    background-image: url('../img/working-4.png');
 }
 .example__paramenter{
-	font-size: 24px;
-	line-height: 24px;
+    font-size: 24px;
+    line-height: 24px;
 }
 .example__description{
-	font-size: 12px;
-	line-height: 12px;
-	color: var(--darkgrey);
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--darkgrey);
 }
 .example__expense{
-	font-size: 14px;
-	line-height: 20px;
-	text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 .results__switcher span{
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	font-family: Oswald, Arial, sans-serif;
-}
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: Oswald, Arial, sans-serif;
+} 

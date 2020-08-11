@@ -1,43 +1,43 @@
 .product__name{
-	font-family: Oswald, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
 }
 .more-items__btn{
-	background-color: var(--background);
-	color: var(--darkgrey);
-	&:hover,
-	&:focus{
-		background-color: var(--new-grey);
-	};
-	&:active{
-		opacity: .3;
-	}
+    background-color: var(--background);
+    color: var(--darkgrey);
+    &:hover,
+    &:focus{
+        background-color: var(--new-grey);
+    };
+    &:active{
+        opacity: .3;
+    }
 }
 .programme-btn{
 
-	&:hover,
-	&:focus{
-		background-color: var(--bright-green);
-	};
-	&:active{
-		opacity: .3;
-	}
+    &:hover,
+    &:focus{
+        background-color: var(--bright-green);
+    };
+    &:active{
+        opacity: .3;
+    }
 }
 .more-items__paragraph{
-	font-family: Oswald, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
 }
 .present{
-	background-image: url('../img/gift-bg.png'); 
-	height: 290px;
-	background-repeat: no-repeat;
+    background-image: url('../img/gift-bg.png');
+    height: 290px;
+    background-repeat: no-repeat;
 }
 .present__paragraph{
-	font-size: 16px;
-	line-height: 20px;
-	color: var(--white);
-	background-repeat: no-repeat;
-	background-image: url('../img/icon-gift.svg');
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+    background-repeat: no-repeat;
+    background-image: url('../img/icon-gift.svg');
 }

@@ -1,26 +1,26 @@
 :root {
-	--background: #F2F2F2;
-	--grey: #EBEBEB;
-	--green: #68B738;
-	--white: #FFFFFF;
-	--darkgrey: #444444;
-	--new-black: #111111;
-	--bright-green: #5EAA2F;
-	--new-grey: #EBEBEB;
+    --background: #F2F2F2;
+    --grey: #EBEBEB;
+    --green: #68B738;
+    --white: #FFFFFF;
+    --darkgrey: #444444;
+    --new-black: #111111;
+    --bright-green: #5EAA2F;
+    --new-grey: #EBEBEB;
 }
 body{
-	margin: 0;
-	font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-*, 
-*::before, 
+*,
+*::before,
 *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 a{
-	text-decoration: none;
-	color: var(--black);
+    text-decoration: none;
+    color: var(--black);
 }
 .visually-hidden {
     position: absolute;
@@ -33,18 +33,18 @@ a{
     overflow: hidden;
 }
 .table{
-	font-size: 12px;
-	line-height: 16px;
-	color: var(--darkgrey);
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--darkgrey);
 }
 .button{
-	font-family: Oswald, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 40px;
-	text-transform: uppercase;
-	border: none;
-	&--green{
-	background-color: var(--green);
-	color: var(--white);
-	}
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    border: none;
+    &--green{
+    background-color: var(--green);
+    color: var(--white);
+    }
 }
