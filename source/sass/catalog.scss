@@ -14,16 +14,6 @@
         opacity: .3;
     }
 }
-.programme-btn{
-
-    &:hover,
-    &:focus{
-        background-color: var(--bright-green);
-    };
-    &:active{
-        opacity: .3;
-    }
-}
 .more-items__paragraph{
     font-family: Oswald, Arial, sans-serif;
     font-size: 16px;
