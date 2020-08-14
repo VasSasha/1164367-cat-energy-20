@@ -1,21 +1,23 @@
-.programme-btn{
+.programme-btn {
+  &:hover,
+  &:focus {
+    background-color: var(--bright-green);
+  }
 
-    &:hover,
-    &:focus{
-        background-color: var(--bright-green);
-    };
-    &:active{
-        opacity: .3;
-    }
+  &:active {
+    opacity: 0.3;
+  }
 }
-.button{
-    font-family: Oswald, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 40px;
-    text-transform: uppercase;
-    border: none;
-    &--green{
+
+.button {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  border: none;
+
+  &--green {
     background-color: var(--green);
     color: var(--white);
-    }
+  }
 }

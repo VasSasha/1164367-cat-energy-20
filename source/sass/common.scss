@@ -1,39 +1,42 @@
 :root {
-    --background: #F2F2F2;
-    --grey: #EBEBEB;
-    --green: #68B738;
-    --white: #FFFFFF;
-    --darkgrey: #444444;
-    --new-black: #111111;
-    --bright-green: #5EAA2F;
-    --new-grey: #EBEBEB;
+  --background: #f2f2f2;
+  --grey: #ebebeb;
+  --green: #68b738;
+  --white: #ffffff;
+  --darkgrey: #444444;
+  --new-black: #111111;
+  --bright-green: #5eaa2f;
 }
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
 }
+
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: var(--black);
+
+a {
+  text-decoration: none;
+  color: var(--black);
 }
+
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.table{
-    font-size: 12px;
-    line-height: 16px;
-    color: var(--darkgrey);
+
+.table {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--darkgrey);
 }

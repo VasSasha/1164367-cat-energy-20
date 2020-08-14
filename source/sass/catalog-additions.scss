@@ -1,28 +1,33 @@
-.more-items__btn{
-    background-color: var(--background);
-    color: var(--darkgrey);
-    &:hover,
-    &:focus{
-        background-color: var(--new-grey);
-    };
-    &:active{
-        opacity: .3;
-    }
+.more-items__btn {
+  background-color: var(--background);
+  color: var(--darkgrey);
+
+  &:hover,
+  &:focus {
+    background-color: var(--grey);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
-.more-items__paragraph{
-    font-family: Oswald, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+
+.more-items__paragraph {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
-.present{
-    background-image: url('../img/gift-bg.png');
-    height: 290px;
-    background-repeat: no-repeat;
+
+.present {
+  background-image: url("../img/gift-bg.png");
+  height: 290px;
+  background-repeat: no-repeat;
 }
-.present__paragraph{
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--white);
-    background-repeat: no-repeat;
-    background-image: url('../img/icon-gift.svg');
+
+.present__paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-gift.svg");
 }
