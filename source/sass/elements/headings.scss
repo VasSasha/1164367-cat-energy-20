@@ -45,3 +45,11 @@
     background-image: url("../img/gain-weight.png");
   }
 }
+
+.catalog__heading {
+  border-top: 1px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
+  padding-top: 27px;
+  padding-bottom: 41px;
+  text-align: center;
+}
