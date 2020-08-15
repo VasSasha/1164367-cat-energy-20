@@ -1,5 +1,12 @@
-@import 'source/sass/common.scss';
-@import 'source/sass/footer.scss';
-@import 'source/sass/main-nav.scss';
-@import 'source/sass/index.scss';
-@import 'source/sass/catalog.scss';
+@import "elements/common.scss";
+@import "elements/buttons.scss";
+@import "elements/lists.scss";
+@import "elements/headings.scss";
+@import "blocks/footer.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/programme-description.scss";
+@import "blocks/example.scss";
+@import "blocks/working.scss";
+@import "blocks/additions.scss";
+@import "blocks/product-card.scss";
