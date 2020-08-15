@@ -24,6 +24,10 @@ a {
   color: var(--black);
 }
 
+.nav__list--hidden {
+  display: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

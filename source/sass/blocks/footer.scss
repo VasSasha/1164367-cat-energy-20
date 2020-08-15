@@ -12,16 +12,19 @@
   color: var(--darkgrey);
 }
 
-.developers__logo-img {
-  &:hover,
-  &:focus + .developers__logo-img img {
-    background-color: var(--green);
-  }
-
-  &:active {
-    opacity: 0.3;
-  }
+.dev-icon__path {
+  height: 34px;
 }
+.dev-icon:hover .dev-icon__path,
+.dev-icon:focus .dev-icon__path {
+  fill: var(--green);
+}
+
+.dev-icon:active .dev-icon__path{
+    opacity: 0.3;
+}
+
+
 
 .location__heading {
   font-size: 16px;
