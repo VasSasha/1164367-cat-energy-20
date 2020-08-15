@@ -1,3 +1,20 @@
+.products__list {
+  display: grid;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.product {
+  width: 100%;
+  border-bottom: 1px solid var(--grey);
+  padding-top: 19px;
+  padding-bottom: 25px;
+}
+
+.product__btn {
+  width: 100%;
+}
+
 .product__name {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
