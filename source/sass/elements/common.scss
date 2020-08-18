@@ -4,9 +4,10 @@
   --green: #68b738;
   --white: #ffffff;
   --darkgrey: #444444;
+  --bright-green: #5eaa2f;
+  --special-black: #222222;
   --black: #000000;
   --new-black: #111111;
-  --bright-green: #5eaa2f;
 }
 
 body {
@@ -24,7 +25,6 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--black);
 }
 
 .nav__list--hidden {

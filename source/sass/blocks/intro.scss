@@ -1,5 +1,5 @@
-.introduction {
-  background-image: url("../img/indexbg.png"), url("../img/indexcan.png");
+.intro {
+  background-image: url("../img/index-bg-mobile.jpg"), url("../img/indexcan.png");
   background-repeat: no-repeat;
   background-position: 0 0, 50% 40%;
   height: 480px;
@@ -10,4 +10,8 @@
   font-size: 14px;
   line-height: 14px;
   color: var(--white);
+}
+
+.programme-btn {
+
 }

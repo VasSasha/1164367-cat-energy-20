@@ -1,6 +1,7 @@
 .heading {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: normal;
+  color: var(--black);
 
   &--h1 {
     font-size: 36px;
@@ -23,13 +24,14 @@
   }
 
   &--h4 {
-    font-size: 16px;
+    color: var(--special-black);
     line-height: 16px;
     text-transform: uppercase;
   }
 
   &--location {
     text-transform: uppercase;
+    color: var(--new-black);
   }
 
   &--gm,
