@@ -20,4 +20,18 @@
     background-color: var(--green);
     color: var(--white);
   }
+  &--show {
+  background-color: var(--background);
+  color: var(--darkgrey);
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    background-color: var(--grey);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
 }
