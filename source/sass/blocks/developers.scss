@@ -14,3 +14,14 @@
 .developers__logo-name {
   color: var(--darkgrey);
 }
+
+.developers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 22px;
+  padding-bottom: 22px;
+}
+
