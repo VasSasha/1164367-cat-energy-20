@@ -17,6 +17,7 @@
     &:hover,
     &:focus {
       background-color: var(--bright-green);
+      outline: none;
     }
   }
 
@@ -26,8 +27,9 @@
     width: 100%;
   }
 
-  &:hover,
-  &:focus {
-    background-color: var(--grey);
-  }
+    &:hover,
+    &:focus {
+      background-color: var(--grey);
+      outline: none;
+    }
 }
