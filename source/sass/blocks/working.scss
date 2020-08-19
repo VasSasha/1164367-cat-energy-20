@@ -1,8 +1,26 @@
-.working__description,
-.example__paragraph {
+.working {
+  margin-top: 27px;
+  padding-bottom: 46px;
+}
+
+.working__list {
+  margin-top: 38px;
+}
+
+.working__description {
   background-repeat: no-repeat;
   font-size: 14px;
   line-height: 18px;
+  margin: 0;
+}
+
+.working__element {
+  margin: 0;
+}
+
+.working__description {
+  width: 71%;
+  padding-left: 80px;
 }
 
 .working__description--consist {
