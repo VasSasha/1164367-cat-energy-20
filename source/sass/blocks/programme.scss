@@ -1,11 +1,32 @@
+.programmes__list {
+  @media (min-width: $mobile-width) {
+    margin-top: 2px;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}
+
 .programme {
   background-color: var(--background);
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 22px;
 }
 
 .programme__paragraph {
+  margin: 0;
   font-size: 14px;
   line-height: 18px;
   color: var(--darkgrey);
+  border-bottom: 1px solid var(--border-color);
+
+  @media (min-width: $mobile-width) {
+    width: 88%;
+    padding-bottom: 23px;
+    padding-top: 29px;
+  }
 }
 
 .programme__link {
@@ -13,4 +34,9 @@
   line-height: 16px;
   text-transform: uppercase;
   color: var(--black);
+  text-align: left;
+
+  @media (min-width: $mobile-width) {
+    padding-top: 19px;
+  }
 }

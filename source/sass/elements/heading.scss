@@ -2,6 +2,8 @@
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: normal;
   color: var(--black);
+  margin: 0;
+  padding: 0;
 
   &--h1 {
     font-size: 36px;
@@ -37,6 +39,10 @@
   &--gm,
   &--lw {
     background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 81px;
+    background-position: 0 100%;
+    line-height: 50px;
   }
 
   &--lw {
