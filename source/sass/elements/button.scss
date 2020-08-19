@@ -5,9 +5,17 @@
   text-transform: uppercase;
   border: none;
 
+  &:active {
+    opacity: 0.3;
+  }
+
   &--green {
     background-color: var(--green);
     color: var(--white);
+    &:hover,
+    &:focus {
+      background-color: var(--bright-green);
+    }
   }
 
   &--show {
@@ -19,20 +27,5 @@
   &:hover,
   &:focus {
     background-color: var(--grey);
-  }
-
-  &:active {
-    opacity: 0.3;
-  }
-}
-
-.programme-btn {
-  &:hover,
-  &:focus {
-    background-color: var(--bright-green);
-  }
-
-  &:active {
-    opacity: 0.3;
   }
 }
