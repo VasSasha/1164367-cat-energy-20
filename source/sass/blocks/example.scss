@@ -1,7 +1,31 @@
+.example {
+  background-color: var(--background);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 27px;
+}
+
+.example__data {
+  text-align: center;
+}
+
+.data-wrapper {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
 .example__parameter {
   font-size: 24px;
   line-height: 24px;
   color: var(--black);
+}
+
+.example__paragraph {
+  background-repeat: no-repeat;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding-top: 33px;
 }
 
 .example__description {
