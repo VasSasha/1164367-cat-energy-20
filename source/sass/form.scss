@@ -1,0 +1,15 @@
+.form__note{
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form__paragraph{
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.field__input,
+.field__input::placeholder {
+  @extend .field__label;
+}
