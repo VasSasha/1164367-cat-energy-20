@@ -1,0 +1,49 @@
+.heading {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  color: var(--black);
+
+  &--h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  &--h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  &--index {
+    color: var(--white);
+  }
+
+  &--h3 {
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+  }
+
+  &--h4 {
+    color: var(--special-black);
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+
+  &--location {
+    text-transform: uppercase;
+    color: var(--new-black);
+  }
+
+  &--gm,
+  &--lw {
+    background-repeat: no-repeat;
+  }
+
+  &--lw {
+    background-image: url("../img/lose-weight.png");
+  }
+
+  &--gm {
+    background-image: url("../img/gain-weight.png");
+  }
+}
