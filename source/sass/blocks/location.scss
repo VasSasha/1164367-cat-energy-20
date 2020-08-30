@@ -2,6 +2,10 @@
   font-size: 14px;
   line-height: 20px;
   width: 140px;
+
+  @media (min-width: $tablet-width) {
+    text-align: right;
+  }
 }
 
 .location__heading {
