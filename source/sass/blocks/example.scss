@@ -4,6 +4,14 @@
   padding-right: 20px;
   padding-top: 27px;
   padding-bottom: 39px;
+
+  @media (min-width: $tablet-width) {
+    background-color: var(--white);
+    border-top: 1px solid var(--border-color);
+    padding-top: 43px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .example__data {
@@ -15,6 +23,7 @@
   margin-top: 25px;
   justify-content: space-between;
 }
+
 .example__parameter {
   font-size: 24px;
   line-height: 24px;
@@ -27,6 +36,11 @@
   line-height: 18px;
   margin: 0;
   padding-top: 33px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .example__description {
