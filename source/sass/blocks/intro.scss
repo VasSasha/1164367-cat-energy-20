@@ -5,6 +5,12 @@
   height: 480px;
   position: relative;
   padding-top: 27px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/indexcan.png");
+    background-position: 50% 70%;
+    margin-top: 62px;
+  }
 }
 
 .intro__paragraph {
@@ -12,4 +18,31 @@
   font-size: 14px;
   line-height: 14px;
   color: var(--white);
+
+  @media (min-width: $tablet-width) {
+    color: var(--black);
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 41px;
+    margin-left: 118px;
+  }
+}
+
+.intro__btn {
+  width: 244px;
+  line-height: 54px;
+  font-size: 20px;
+  margin-top: 49px;
+  margin-left: 112px;
+
+  @media (max-width: $tablet-width) {
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    font-size: 14px;
+  }
 }
