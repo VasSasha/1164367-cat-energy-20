@@ -3,4 +3,18 @@
   text-align: center;
 }
 
+.results__switcher input {
+  @media (min-width: $tablet-width) {
+    width: 59%;
+    margin-left: 14px;
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 767px) {
+  .results__photo--hidden {
+    display: none;
+  }
+}
+
 
