@@ -1,11 +1,16 @@
 .example {
-  background-color: var(--background);
+  background-color: var(--dark-background);
   padding-top: 27px;
 
   @media (min-width: $tablet-width) {
     background-color: var(--white);
     border-top: 1px solid var(--border-color);
     padding-top: 43px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: var(--dark-background);
+    display: flex;
   }
 }
 
@@ -19,15 +24,15 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 35.7%;
     padding-left: 110px;
-    padding-right: 110px;
   }
 }
 
 .example__data {
   text-align: center;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $tablet-width) and (max-width: 1439px) {
     margin-right: 42px;
   }
 }
@@ -36,6 +41,12 @@
   display: flex;
   margin-top: 25px;
   justify-content: space-between;
+  padding-bottom: 25px;
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+    min-width: 366px;
+  }
 }
 
 .remark-wrapper {
@@ -48,6 +59,8 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 69px;
+    width: 100%;
+    display: block;
   }
 }
 
@@ -84,13 +97,28 @@
   line-height: 20px;
   text-transform: uppercase;
   color: var(--black);
+  font-family: "Oswald", "Arial", sans-serif;
+  padding-left: 20%;
+
+  br {
+    display: none;
+  }
 
   @media (min-width: $tablet-width) {
     text-align: right;
     font-size: 20px;
+
+    br {
+      display: block;
+    }
   }
 
-  @media (max-width: 767px) and (min-width: $desktop-width) {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    padding-bottom: 75px;
+
     br {
       display: none;
     }
