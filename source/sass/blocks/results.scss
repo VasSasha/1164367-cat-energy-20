@@ -30,4 +30,16 @@
   }
 }
 
+.results {
+  margin-top: 44px;
+  background-color: var(--dark-background);
 
+  @media (min-width: $tablet-width) {
+    margin-top: 59px;
+    padding-bottom: 67px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
+}
