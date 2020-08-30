@@ -5,6 +5,10 @@
   @media (min-width: $tablet-width) {
     margin-top: 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 71px;
+  }
 }
 
 .working__list {
@@ -47,6 +51,8 @@
   margin: 0;
   position: relative;
   background-repeat: no-repeat;
+  margin-bottom: 20px;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     width: 35%;
