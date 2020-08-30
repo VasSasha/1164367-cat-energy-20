@@ -17,4 +17,17 @@
   }
 }
 
+.results__switcher span {
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: var(--black);
+
+  @media (min-width: $tablet-width) {
+    border-bottom: 1px dotted var(--switcher-border);
+    padding-bottom: 8px;
+    font-size: 20px;
+  }
+}
+
 
