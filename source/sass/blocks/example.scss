@@ -71,10 +71,8 @@
 }
 
 .example__paragraph {
+  @extend .working__description;
   background-repeat: no-repeat;
-  font-size: 14px;
-  line-height: 18px;
-  margin: 0;
   padding-top: 33px;
 
   @media (min-width: $tablet-width) {
@@ -126,8 +124,4 @@
       display: none;
     }
   }
-}
-
-.example__paragraph {
-  @extend .working__description;
 }
