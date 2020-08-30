@@ -38,8 +38,10 @@
   }
 }
 
-.nav__list--hidden {
-  display: none;
+@media (max-width: 767px) {
+  .nav__list--hidden {
+    display: none;
+  }
 }
 
 .nav__item--current {
