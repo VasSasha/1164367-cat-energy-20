@@ -1,6 +1,32 @@
-.header {
+.header-wrapper {
   display: flex;
-  justify-content: space-between;
+  max-width: 180px;
+
+  @media (max-width: $tablet-width) {
+    justify-content: space-between;
+  }
   align-items: center;
   min-width: 280px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 66px;
+  }
+}
+
+.header__btn {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.header {
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
 }
