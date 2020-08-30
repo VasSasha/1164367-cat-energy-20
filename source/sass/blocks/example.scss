@@ -1,7 +1,6 @@
 .example {
   background-color: var(--background);
   padding-top: 27px;
-  padding-bottom: 39px;
 
   @media (min-width: $tablet-width) {
     background-color: var(--white);
@@ -17,6 +16,11 @@
   @media (min-width: $tablet-width) {
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 
@@ -87,8 +91,8 @@
   }
 
   @media (max-width: 767px) and (min-width: $desktop-width) {
-   br {
-    display: none;
-   }
+    br {
+      display: none;
+    }
   }
 }
