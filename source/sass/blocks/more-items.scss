@@ -35,3 +35,19 @@
   color: var(--new-black);
   position: relative;
 }
+
+.more-items__paragraph::before {
+  content: "";
+  background-image: url("../img/icon-plus.svg");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -53px;
+  left: 45%;
+}
+
+.more-items__description {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--darkgrey);
+}
