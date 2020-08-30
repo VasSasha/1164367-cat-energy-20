@@ -28,3 +28,18 @@
   position: relative;
 }
 
+.present__paragraph::before {
+  content: "";
+  background-image: url("../img/icon-gift.svg");
+  background-repeat: no-repeat;
+  height: 68px;
+  width: 68px;
+  position: absolute;
+  top: 65px;
+  left: 36%;
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    left: 13%;
+    top: 40%;
+  }
+}
