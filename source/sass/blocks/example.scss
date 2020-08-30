@@ -1,7 +1,5 @@
 .example {
   background-color: var(--background);
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 27px;
   padding-bottom: 39px;
 
@@ -9,6 +7,14 @@
     background-color: var(--white);
     border-top: 1px solid var(--border-color);
     padding-top: 43px;
+  }
+}
+
+.example-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -16,6 +22,10 @@
 
 .example__data {
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 42px;
+  }
 }
 
 .data-wrapper {
@@ -40,6 +50,10 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+
+    br {
+      display: none;
+    }
   }
 }
 
@@ -53,11 +67,15 @@
   line-height: 20px;
   text-transform: uppercase;
   color: var(--black);
-}
 
-.results__switcher span {
-  line-height: 20px;
-  text-transform: uppercase;
-  font-family: "Oswald", "Arial", sans-serif;
-  color: var(--black);
+  @media (min-width: $tablet-width) {
+    text-align: right;
+    font-size: 20px;
+  }
+
+  @media (max-width: 767px) and (min-width: $desktop-width) {
+   br {
+    display: none;
+   }
+  }
 }
