@@ -34,6 +34,19 @@
   justify-content: space-between;
 }
 
+.remark-wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 69px;
+  }
+}
+
 .example__parameter {
   font-size: 24px;
   line-height: 24px;
