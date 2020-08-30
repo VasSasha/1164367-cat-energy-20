@@ -124,3 +124,7 @@
     }
   }
 }
+
+.example__paragraph {
+  @extend .working__description;
+}
