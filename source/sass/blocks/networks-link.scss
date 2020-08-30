@@ -8,6 +8,11 @@
   align-items: center;
   border-bottom: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    margin-top: 0;
+  }
 }
 
 .networks__link {
