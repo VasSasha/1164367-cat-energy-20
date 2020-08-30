@@ -41,7 +41,11 @@
   min-width: 142px;
   width: 100%;
 
-
+  @media (min-width: $tablet-width) {
+    margin-top: 21px;
+    margin-bottom: 33px;
+    font-size: 16px;
+  }
 }
 
 .product__table tr {
