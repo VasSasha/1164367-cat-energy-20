@@ -17,6 +17,10 @@
   }
 }
 
+.results__photo {
+  text-align: center;
+}
+
 .results__switcher span {
   line-height: 20px;
   text-transform: uppercase;
@@ -41,5 +45,6 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 0;
+    padding-bottom: 75px;
   }
 }
