@@ -12,11 +12,17 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 32px;
-    display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 37px;
     grid-column-gap: 22%;
+    display: grid;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    gap: 5.4%;
+    margin-top: 75px;
   }
 }
 
