@@ -71,7 +71,9 @@
 }
 
 .example__paragraph {
-  @extend .working__description;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
   background-repeat: no-repeat;
   padding-top: 33px;
 
