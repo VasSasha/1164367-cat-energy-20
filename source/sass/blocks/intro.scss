@@ -36,7 +36,7 @@
   margin-top: 49px;
   margin-left: 112px;
 
-  @media (max-width: 767px) {
+  @media (max-width: $pre-tablet) {
     width: 280px;
     margin-left: 20px;
     margin-right: 20px;

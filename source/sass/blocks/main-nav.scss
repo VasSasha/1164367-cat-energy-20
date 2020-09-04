@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $pre-tablet) {
   .nav__list--hidden {
     display: none;
   }

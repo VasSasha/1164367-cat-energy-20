@@ -40,7 +40,7 @@
     margin-top: 13px;
   }
 
-  @media (min-width: $tablet-width) and (max-width: 1400px) {
+  @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
     font-size: 16px;
     line-height: 20px;
     position: absolute;
