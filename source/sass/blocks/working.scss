@@ -53,9 +53,9 @@
   background-repeat: no-repeat;
   margin-bottom: 20px;
   width: 100%;
+  min-height: 60px;
 
   @media (min-width: $tablet-width) {
-    width: 35%;
     min-width: 250px;
     height: 280px;
     background-position: 0 0, 100% 0;
@@ -76,6 +76,7 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/working-2.png"), url("../img/working-number2.png");
+    width: 227px;
   }
 }
 
@@ -92,5 +93,37 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/working-4.png"), url("../img/working-number4.png");
+  }
+}
+
+.working__description--consist {
+  width: 264px;
+
+  @media (min-width: $tablet-width) {
+    width: 211px;
+  }
+}
+
+.working__description--use {
+  width: 278px;
+
+  @media (min-width: $tablet-width) {
+    width: 291px;
+  }
+}
+
+.working__description--reccomendation {
+  width: 263px;
+
+  @media (min-width: $tablet-width) {
+    width: 289px;
+  }
+}
+
+.working__description--results {
+  width: 290px;
+
+  @media (min-width: $tablet-width) {
+    width: 326px;
   }
 }
