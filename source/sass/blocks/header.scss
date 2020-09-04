@@ -1,12 +1,10 @@
 .header-wrapper {
   display: flex;
-  max-width: 180px;
+  align-items: center;
 
   @media (max-width: $pre-tablet) {
     justify-content: space-between;
   }
-  align-items: center;
-  min-width: 280px;
 
   @media (min-width: $tablet-width) {
     padding-top: 34px;
