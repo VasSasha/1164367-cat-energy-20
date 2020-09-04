@@ -108,7 +108,7 @@
   width: 278px;
 
   @media (min-width: $tablet-width) {
-    width: 291px;
+    width: 261px;
   }
 }
 
@@ -116,14 +116,16 @@
   width: 263px;
 
   @media (min-width: $tablet-width) {
-    width: 289px;
+    width: 269px;
   }
 }
 
 .working__description--results {
   width: 290px;
 
-  @media (min-width: $tablet-width) {
-    width: 326px;
+  @media (max-width: $pre-tablet) {
+    br {
+      display: none;
+    }
   }
 }
