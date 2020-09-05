@@ -1,0 +1,12 @@
+.present {
+  background-image: url("../img/gift-bg.png");
+  height: 290px;
+  background-repeat: no-repeat;
+}
+
+.present__paragraph {
+  line-height: 20px;
+  color: var(--white);
+  background-repeat: no-repeat;
+  background-image: url("../img/icon-gift.svg");
+}
