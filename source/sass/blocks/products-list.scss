@@ -20,9 +20,13 @@
   }
 }
 
-.products__list li {
-  width: 100%;
-  border-bottom: 1px solid var(--border-color);
+.products__list li::after {
+  content: "";
+  height: 1px;
+  width: 100vw;
+  background-color: var(--border-color);
+  position: absolute;
+  left: 0;
 }
 
 .product {
