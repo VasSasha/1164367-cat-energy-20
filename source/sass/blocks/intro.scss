@@ -2,9 +2,11 @@
   background-image: url("../img/indexcan.png"), url("../img/index-bg-mobile.jpg");
   background-repeat: no-repeat;
   background-position: 50% 80%, 0 0;
+  background-size: auto, 100% 305px;
   height: 480px;
   position: relative;
   padding-top: 27px;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/indexcan.png");
