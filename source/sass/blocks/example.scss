@@ -14,21 +14,6 @@
   }
 }
 
-.example-wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: $tablet-width) {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 35.7%;
-    padding-left: 110px;
-  }
-}
-
 .example__data {
   text-align: center;
 
