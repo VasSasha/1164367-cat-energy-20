@@ -65,18 +65,20 @@
   }
 }
 
-.working__element::after {
-  counter-increment: section;
-  content: counter(section);
-  position: absolute;
-  top: -90px;
-  right: 0;
-  font-size: 237px;
-  height: 100%;
-  font-stretch: ultra-condensed;
-  color: var(--background);
-  z-index: 1;
-  font-family: "Oswald", "Arial", sans-serif;
+@media (min-width: $tablet-width) {
+  .working__element::after {
+    counter-increment: section;
+    content: counter(section);
+    position: absolute;
+    top: -90px;
+    right: 0;
+    font-size: 237px;
+    height: 100%;
+    font-stretch: ultra-condensed;
+    color: var(--background);
+    z-index: 1;
+    font-family: "Oswald", "Arial", sans-serif;
+  }
 }
 
 .working__element--consist {
