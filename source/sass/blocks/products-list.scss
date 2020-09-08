@@ -20,13 +20,17 @@
   }
 }
 
-.product {
+.products__list li {
   width: 100%;
   border-bottom: 1px solid var(--border-color);
+}
+
+.product {
   padding-top: 19px;
+  padding-bottom: 25px;
   display: grid;
-  padding-right: 20px;
-  padding-left: 20px;
+  width: 280px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     height: 430px;
