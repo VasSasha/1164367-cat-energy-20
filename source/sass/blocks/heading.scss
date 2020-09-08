@@ -79,11 +79,16 @@
     background-position: 0 100%;
     line-height: 50px;
 
-    @media (min-width: $tablet-width) {
+    @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
       background-image: url("");
       padding-left: 0;
       font-size: 36px;
     }
+
+    @media (min-width: $desktop-width) {
+      font-size: 36px;
+      padding-top: 71px;
+     }
   }
 
   &--catalog {

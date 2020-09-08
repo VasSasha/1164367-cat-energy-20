@@ -55,6 +55,16 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .programme--gw .programme__paragraph {
+    width: 457px;
+  }
+
+  .programme--lw .programme__paragraph {
+    width: 467px;;
+  }
+}
+
 @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
   .programme--lw {
     background-image: url("../img/lw-tablet.png");
