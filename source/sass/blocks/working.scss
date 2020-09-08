@@ -13,6 +13,7 @@
 
 .working__list {
   margin-top: 38px;
+  counter-reset: section;
 
   @media (min-width: $tablet-width) {
     margin-top: 32px;
@@ -37,6 +38,7 @@
   min-width: 230px;
   width: 90%;
   padding-left: 80px;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -63,37 +65,34 @@
   }
 }
 
+.working__element::after {
+  counter-increment: section;
+  content: counter(section);
+  position: absolute;
+  top: -90px;
+  right: 0;
+  font-size: 237px;
+  height: 100%;
+  font-stretch: ultra-condensed;
+  color: var(--background);
+  z-index: 1;
+  font-family: "Oswald", "Arial", sans-serif;
+}
+
 .working__element--consist {
   background-image: url("../img/working-1.png");
-
-  @media (min-width: $tablet-width) {
-    background-image: url("../img/working-1.png"), url("../img/working-number1.png");
-  }
 }
 
 .working__element--use {
   background-image: url("../img/working-2.png");
-
-  @media (min-width: $tablet-width) {
-    background-image: url("../img/working-2.png"), url("../img/working-number2.png");
-    width: 227px;
-  }
 }
 
 .working__element--reccomendation {
   background-image: url("../img/working-3.png");
-
-  @media (min-width: $tablet-width) {
-    background-image: url("../img/working-3.png"), url("../img/working-number3.png");
-  }
 }
 
 .working__element--results {
   background-image: url("../img/working-4.png");
-
-  @media (min-width: $tablet-width) {
-    background-image: url("../img/working-4.png"), url("../img/working-number4.png");
-  }
 }
 
 .working__description--consist {
