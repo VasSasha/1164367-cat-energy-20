@@ -70,10 +70,10 @@
     counter-increment: section;
     content: counter(section);
     position: absolute;
-    top: -90px;
+    top: -32px;
     right: 0;
-    font-size: 237px;
-    height: 100%;
+    font-size: 280px;
+    line-height: 280px;
     color: var(--background);
     z-index: 1;
     font-family: "Oswald", "Arial", sans-serif;
