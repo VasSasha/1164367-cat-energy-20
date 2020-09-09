@@ -15,11 +15,17 @@
   }
 }
 
+.intro__container {
+  position: relative;
+  height: 100%;
+}
+
 .intro__paragraph {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: var(--white);
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     color: var(--black);
@@ -39,12 +45,11 @@
   margin-left: 112px;
 
   @media (max-width: $pre-tablet) {
-    width: 280px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
     position: absolute;
     bottom: 0;
     line-height: 40px;
     font-size: 14px;
+    margin-left: 0;
   }
 }

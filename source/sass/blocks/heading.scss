@@ -30,6 +30,7 @@
   &--index {
     color: var(--white);
     width: 77.8%;
+    margin: 0 auto;
 
     @media (min-width: $tablet-width) {
       color: var(--black);
