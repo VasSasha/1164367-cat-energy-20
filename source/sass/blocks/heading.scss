@@ -2,41 +2,66 @@
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: normal;
   color: var(--black);
+  margin: 0;
+  padding: 0;
 
   &--h1 {
+    margin: 0;
     font-size: 36px;
     line-height: 36px;
+    text-align: center;
+
+    @media (min-width: $tablet-width) {
+      font-size: 60px;
+      line-height: 60px;
+    }
   }
 
   &--h2 {
     font-size: 36px;
     line-height: 40px;
+
+    @media (min-width: $tablet-width) {
+      font-size: 60px;
+      line-height: 60px;
+    }
   }
 
   &--index {
     color: var(--white);
+    width: 77.8%;
+    margin: 0 auto;
+
+    @media (min-width: $tablet-width) {
+      color: var(--black);
+      width: 54%;
+      text-align: left;
+      margin-left: 117px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 34%;
+    }
   }
 
   &--h3 {
     font-size: 24px;
     line-height: 37px;
-    text-transform: uppercase;
   }
 
   &--h4 {
     color: var(--special-black);
     line-height: 16px;
     text-transform: uppercase;
+
+    @media (min-width: $tablet-width) {
+      font-size: 20px;
+    }
   }
 
   &--location {
     text-transform: uppercase;
     color: var(--new-black);
-  }
-
-  &--gm,
-  &--lw {
-    background-repeat: no-repeat;
   }
 
   &--lw {
@@ -45,5 +70,39 @@
 
   &--gm {
     background-image: url("../img/gain-weight.png");
+  }
+
+  &--gm,
+  &--lw {
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 81px;
+    background-position: 0 100%;
+    line-height: 50px;
+
+    @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
+      background-image: url("");
+      padding-left: 0;
+      font-size: 36px;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 36px;
+      padding-top: 71px;
+    }
+  }
+
+  &--catalog {
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+    padding-top: 27px;
+    padding-bottom: 41px;
+    text-align: center;
+
+    @media (min-width: $tablet-width) {
+      border: none;
+      padding-bottom: 109px;
+      padding-top: 63px;
+    }
   }
 }

@@ -1,0 +1,30 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $pre-tablet) {
+    justify-content: space-between;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 34px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 66px;
+  }
+}
+
+.header__btn {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.header {
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
