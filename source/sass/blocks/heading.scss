@@ -47,7 +47,8 @@
 
   &--form {
     @media (max-width: $pre-tablet) {
-      border-top: 1px solid var(--grey);
+      border-top: 1px solid var(--border-color);
+      padding-top: 27px;
     }
   }
 
