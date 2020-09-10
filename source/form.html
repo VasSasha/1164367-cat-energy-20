@@ -35,7 +35,7 @@
           </div>
         </header>
         <main class="form-main">
-            <h1 class="heading heading--h1 heading--form">Подбор программы</h1>
+            <h1 class="heading heading--h1 form__heading">Подбор программы</h1>
             <form action="https://echo.htmlacademy.ru" method="post" class="form container">
                     <p class="form__paragraph">Заполните анкету, и мы подберем
                     программу питания для вашего кота</p>
@@ -70,14 +70,16 @@
                 <fieldset class="contacts fieldset">
                     <legend class="heading heading--form">Контактные данные
                     (владельца кота)</legend>
-                    <label class="field">
-                        <span class="label field__label">E-mail:*</span>
-                        <input type="email" placeholder="kuklachev@gmail.com" class="field__input">
-                    </label>
-                    <label class="field">
-                        <span class="label field__label">Телефон:*</span>
-                        <input type="tel" placeholder="8 (960) 900-60-90" class="field__input">
-                    </label>
+                    <div class="wrapper wrapper--contacts">
+                      <label class="field">
+                          <span class="label field__label">E-mail:*</span>
+                          <input type="email" placeholder="kuklachev@gmail.com" class="field__input">
+                      </label>
+                      <label class="field">
+                          <span class="label field__label">Телефон:*</span>
+                          <input type="tel" placeholder="8 (960) 900-60-90" class="field__input">
+                      </label>
+                    </div>
                 </fieldset>
                 <fieldset class="comment fieldset">
                     <legend class="heading heading--form">Комментарий</legend>

@@ -45,13 +45,6 @@
     }
   }
 
-  &--form {
-    @media (max-width: $pre-tablet) {
-      border-top: 1px solid var(--border-color);
-      padding-top: 27px;
-    }
-  }
-
   &--h3 {
     font-size: 24px;
     line-height: 37px;

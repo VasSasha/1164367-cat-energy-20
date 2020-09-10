@@ -1,6 +1,7 @@
 .form__note {
   font-size: 14px;
   line-height: 16px;
+  text-align: center;
 }
 
 .form__paragraph {
@@ -11,4 +12,11 @@
   width: 226px;
   margin-bottom: 39px;
   margin-top: 37px;
+}
+
+.form__heading {
+  @media (max-width: $pre-tablet) {
+    border-top: 1px solid var(--border-color);
+    padding-top: 27px;
+  }
 }
