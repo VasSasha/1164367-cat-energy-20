@@ -1,6 +1,8 @@
 .header-wrapper {
   display: flex;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   @media (max-width: $pre-tablet) {
     justify-content: space-between;
