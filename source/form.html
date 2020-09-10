@@ -34,9 +34,9 @@
             </button>
           </div>
         </header>
-        <main class="form-main container">
+        <main class="form-main">
             <h1 class="heading heading--h1 heading--form">Подбор программы</h1>
-            <form action="https://echo.htmlacademy.ru" method="post" class="form">
+            <form action="https://echo.htmlacademy.ru" method="post" class="form container">
                     <p class="form__paragraph">Заполните анкету, и мы подберем
                     программу питания для вашего кота</p>
                     <label class="field">
@@ -52,18 +52,20 @@
                         <input type="number" placeholder="7" max="20" min="1" class="field__input">
                     </label>
                 <fieldset class="programme-choice fieldset">
-                    <label class="radio">
-                        <input type="radio" class="radio__input radio__input--checked">
-                        <span class="label radio__label">похудение</span>
-                    </label>
-                    <label class="radio">
-                        <input type="radio" class="radio__input">
-                        <span class="label radio__label">Набор массы</span>
-                    </label>
-                    <label class="radio">
-                        <input type="radio" class="radio__input">
-                        <span class="label radio__label">Не знаю (Нужен ваш совет)</span>
-                    </label>
+                  <div class="wrapper wrapper--radio">
+                      <label class="radio">
+                          <input type="radio" class="radio__input radio__input--checked">
+                          <span class="label radio__label">похудение</span>
+                      </label>
+                      <label class="radio">
+                          <input type="radio" class="radio__input">
+                          <span class="label radio__label">Набор массы</span>
+                      </label>
+                      <label class="radio">
+                          <input type="radio" class="radio__input">
+                          <span class="label radio__label">Не знаю (Нужен ваш совет)</span>
+                      </label>
+                    </div>
                 </fieldset>
                 <fieldset class="contacts fieldset">
                     <legend class="heading heading--form">Контактные данные
