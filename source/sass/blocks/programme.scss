@@ -1,11 +1,78 @@
+.programmes__list {
+  margin-top: 2px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    gap: 5.5%;
+  }
+}
+
+.programmes__list li {
+  @media (min-width: $desktop-width) {
+    height: 374px;
+    width: 100%;
+  }
+}
+
 .programme {
   background-color: var(--background);
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 22px;
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 374px;
+    width: 100%;
+  }
 }
 
 .programme__paragraph {
+  margin: 0;
   font-size: 14px;
   line-height: 18px;
-  color: var(--darkgrey);
+  color: var(--black);
+  border-bottom: 1px solid var(--border-color);
+  width: 88%;
+  padding-bottom: 23px;
+  padding-top: 29px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    width: 53%;
+    border: none;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programme--gw .programme__paragraph {
+    width: 457px;
+  }
+
+  .programme--lw .programme__paragraph {
+    width: 467px;
+  }
+}
+
+@media (min-width: $tablet-width) and (max-width: $pre-desktop) {
+  .programme--lw {
+    background-image: url("../img/lw-tablet.png");
+  }
+
+  .programme--gw {
+    background-image: url("../img/gw-tablet.png");
+  }
 }
 
 .programme__link {
@@ -13,4 +80,11 @@
   line-height: 16px;
   text-transform: uppercase;
   color: var(--black);
+  text-align: left;
+  padding-top: 19px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 52px;
+    font-size: 20px;
+  }
 }

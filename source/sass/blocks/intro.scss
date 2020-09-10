@@ -1,8 +1,23 @@
 .intro {
-  background-image: url("../img/index-bg-mobile.jpg"), url("../img/indexcan.png");
+  background-image: url("../img/indexcan.png"), url("../img/index-bg-mobile.jpg");
   background-repeat: no-repeat;
-  background-position: 0 0, 50% 40%;
+  background-position: 50% 80%, 0 0;
+  background-size: auto, 100% 305px;
   height: 480px;
+  position: relative;
+  padding-top: 27px;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/indexcan.png");
+    background-position: 50% 70%;
+    margin-top: 62px;
+  }
+}
+
+.intro__container {
+  position: relative;
+  height: 100%;
 }
 
 .intro__paragraph {
@@ -10,4 +25,31 @@
   font-size: 14px;
   line-height: 14px;
   color: var(--white);
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    color: var(--black);
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 41px;
+    margin-left: 118px;
+  }
+}
+
+.intro__btn {
+  width: 244px;
+  line-height: 54px;
+  font-size: 20px;
+  margin-top: 49px;
+  margin-left: 112px;
+
+  @media (max-width: $pre-tablet) {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 0;
+  }
 }

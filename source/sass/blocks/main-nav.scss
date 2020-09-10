@@ -1,7 +1,49 @@
-.main-nav__item {
+.main-nav__item a {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
+  color: var(--black);
+  padding-bottom: 8px;
+}
+
+.main-nav {
+  order: 1;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 42px;
+    min-width: 440.5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 70px;
+    width: 55%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.nav__list {
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    display: block;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    min-width: 440.5px;
+  }
+}
+
+@media (max-width: $pre-tablet) {
+  .nav__list--hidden {
+    display: none;
+  }
+}
+
+.nav__item--current {
+  border-bottom: 2px solid var(--green);
 }

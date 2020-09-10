@@ -17,3 +17,21 @@
     margin-right: 30px;
   }
 }
+
+.footer__logo {
+  margin-top: 39px;
+  margin-left: 34%;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

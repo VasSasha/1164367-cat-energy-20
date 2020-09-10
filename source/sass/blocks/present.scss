@@ -1,12 +1,67 @@
 .present {
   background-image: url("../img/gift-bg.png");
+  background-size: cover;
   height: 290px;
   background-repeat: no-repeat;
+  margin-bottom: 35px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 69px;
+    margin-bottom: 76px;
+    padding-left: 80px;
+    height: 200px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 32%;
+    min-width: 32%;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    margin-top: 117px;
+    height: 290px;
+    padding-left: 0;
+  }
 }
 
 .present__paragraph {
   line-height: 20px;
   color: var(--white);
-  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 186px;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 70px;
+    text-align: left;
+    padding-left: 48.4%;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    text-align: center;
+    padding-top: 184px;
+  }
+}
+
+.present__paragraph::before {
+  content: "";
   background-image: url("../img/icon-gift.svg");
+  background-repeat: no-repeat;
+  height: 68px;
+  width: 68px;
+  position: absolute;
+  top: 65px;
+  left: 36%;
+
+  @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
+    left: 13%;
+    top: 45%;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 56px;
+    left: 40%;
+  }
 }

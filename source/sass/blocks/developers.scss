@@ -13,4 +13,18 @@
 
 .developers__logo-name {
   color: var(--darkgrey);
+
+  @media (min-width: $tablet-width) {
+    margin-right: 22px;
+  }
+}
+
+.developers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 22px;
+  padding-bottom: 22px;
 }
