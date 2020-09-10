@@ -1,0 +1,16 @@
+.programme-choice {
+    position: relative;
+}
+
+.programme-choice::before,
+.programme-choice::after {
+  @media (max-width: $pre-tablet) {
+    content: "";
+    background-color: var(--border-color);
+    width: 100vw;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    max-width: 100%
+  }
+}

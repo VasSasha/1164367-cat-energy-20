@@ -14,6 +14,7 @@
     @media (min-width: $tablet-width) {
       font-size: 60px;
       line-height: 60px;
+      text-align: left;
     }
   }
 
@@ -41,6 +42,12 @@
 
     @media (min-width: $desktop-width) {
       width: 34%;
+    }
+  }
+
+  &--form {
+    @media (max-width: $pre-tablet) {
+      border-top: 1px solid var(--grey);
     }
   }
 
