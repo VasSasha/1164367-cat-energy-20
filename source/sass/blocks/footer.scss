@@ -12,8 +12,8 @@
   }
 }
 
-@media (min-width: $tablet-width) {
-  .footer-wrapper {
+.footer-wrapper {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     align-items: center;
