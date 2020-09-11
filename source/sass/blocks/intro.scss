@@ -1,23 +1,37 @@
 .intro {
-  background-image: url("../img/indexcan.png"), url("../img/index-bg-mobile.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 80%, 0 0;
-  background-size: auto, 100% 305px;
   height: 480px;
   position: relative;
   padding-top: 27px;
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    background-image: url("../img/indexcan.png");
-    background-position: 50% 70%;
     margin-top: 62px;
+  }
+}
+
+.intro__bg {
+  @media (max-width: $pre-tablet) {
+    background-image: url("../img/indexcan.png");
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 280px;
+  }
+}
+
+@media (max-width: $pre-tablet) {
+  .intro__wrapper {
+    background-image: url("../img/index-bg-mobile.jpg");
+    background-size: cover;
+    z-index: 0;
+    height: 305px;
   }
 }
 
 .intro__container {
   position: relative;
   height: 100%;
+  z-index: 1;
+  min-height: 480px;
 }
 
 .intro__paragraph {
