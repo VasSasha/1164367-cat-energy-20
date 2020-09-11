@@ -2,12 +2,12 @@
   margin: 0 auto;
   width: 280px;
 
-  @media (min-width: $after-mobile) {
-    width: 960px;
-  }
-
   @media (min-width: $tablet-width) {
     width: 708px;
+  }
+
+  @media (min-width: $after-mobile) {
+    width: 960px;
   }
 
   @media (min-width: $desktop-width) {
