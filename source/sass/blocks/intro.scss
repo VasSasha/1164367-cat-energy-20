@@ -5,7 +5,6 @@
   background-size: auto, 100% 305px;
   height: 480px;
   position: relative;
-  padding-top: 27px;
   width: 100%;
 
   @media (min-width: $tablet-width) {
@@ -18,6 +17,10 @@
 .intro__container {
   position: relative;
   height: 100%;
+
+  @media (max-width: $pre-tablet) {
+    padding-top: 27px;
+  }
 }
 
 .intro__paragraph {
