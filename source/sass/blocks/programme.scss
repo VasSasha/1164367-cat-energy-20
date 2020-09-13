@@ -98,4 +98,8 @@
   position: absolute;
   left: 101px;
   top: 60%;
+
+  @media (min-width: $tablet-width) {
+    left: 129px;
+  }
 }
