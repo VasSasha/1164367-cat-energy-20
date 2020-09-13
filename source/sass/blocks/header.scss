@@ -1,6 +1,8 @@
 .header-wrapper {
   display: flex;
   align-items: center;
+  padding-top: 12px;
+  padding-bottom: 16px;
 
   @media (max-width: $pre-tablet) {
     justify-content: space-between;
@@ -16,9 +18,33 @@
 }
 
 .header__btn {
+  border: none;
+  color: transparent;
+
   @media (min-width: $tablet-width) {
     display: none;
   }
+}
+
+.header__btn::before {
+  @media (max-width: $pre-tablet) {
+    content: "";
+    position: absolute;
+    top: 22px;
+    width: 24px;
+    height: 2px;
+    background-color: var(--black);
+    box-shadow: 0 8px 0 0 var(--black),
+    0 16px 0 0 var(--black),
+  }
+}
+
+.header__btn--close::before {
+  content: "";
+  background-color: var(--black);
+  height: 1px;
+  width: 24.8px;
+  position: absolute;
 }
 
 .header {
