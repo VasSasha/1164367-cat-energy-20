@@ -80,9 +80,22 @@
   color: var(--black);
   text-align: left;
   padding-top: 19px;
+  padding-right: 17px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     padding-top: 52px;
     font-size: 20px;
+    padding-right: 25px;
   }
+}
+
+.programme__link::after {
+  content: "";
+  background-image: url("../img/icon-arrow.svg");
+  width: 32px;
+  height: 10px;
+  position: absolute;
+  left: 101px;
+  top: 60%;
 }
