@@ -25,7 +25,7 @@
   }
 }
 
-.nav__list {
+.main-nav__list {
   @media (max-width: $tablet-width) {
     width: 100%;
     display: block;
@@ -45,5 +45,16 @@
 }
 
 .nav__item--current {
-  border-bottom: 2px solid var(--green);
+  @media (min-width: $tablet-width) {
+    border-bottom: 2px solid var(--green);
+  }
+}
+
+.main-nav__item {
+  @media (max-width: $pre-tablet) {
+    padding-top: 22px;
+    padding-bottom: 24px;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+  }
 }
