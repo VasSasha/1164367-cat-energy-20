@@ -8,9 +8,20 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header container">
-      <nav class="main-nav">
-        <ul class="nav__list list nav__list--hidden">
+    <header class="header">
+      <div class="header-wrapper container">
+        <a href="" class="logo logo--img">
+          <img src="img/logo-img.svg">
+        </a>
+        <a href="" class="logo logo--name">
+          <img src="img/logo-name.svg">
+        </a>
+        <button class="header__btn">
+          <span class="visually-hidden"> Открыть меню</span>
+        </button>
+      </div>
+      <nav class="main-nav main-nav--nojs">
+        <ul class="main-nav__list list">
           <li class="main-nav__item nav__item nav__item--current">
             <a href="">главная</a>
           </li>
@@ -22,17 +33,6 @@
           </li>
         </ul>
       </nav>
-      <div class="header-wrapper">
-        <a href="" class="logo logo--img">
-          <img src="img/logo-img.png">
-        </a>
-        <a href="" class="logo logo--name">
-          <img src="img/logo-name.png">
-        </a>
-        <button class="header__btn">
-          <span class="visually-hidden"> Открыть меню</span>
-        </button>
-      </div>
     </header>
     <main class="index-main">
       <div class="intro">
