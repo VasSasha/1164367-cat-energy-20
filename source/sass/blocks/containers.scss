@@ -1,16 +1,16 @@
 .container {
-  @media (min-width: $mobile-width) {
-    width: 280px;
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
-    margin: 0 auto;
+  }
+
+  @media (min-width: $after-mobile) {
+    width: 960px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1220px;
-    margin: 0 auto;
   }
 }

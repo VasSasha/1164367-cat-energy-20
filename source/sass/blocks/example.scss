@@ -16,6 +16,13 @@
 .example__container {
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: $pre-tablet) {
+    width: 280px;
+    margin: 0 auto;
   }
 }
 
@@ -115,5 +122,12 @@
     br {
       display: none;
     }
+  }
+}
+
+.example-wrapper {
+  @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
+    width: 708px;
+    margin: 0 auto;
   }
 }
