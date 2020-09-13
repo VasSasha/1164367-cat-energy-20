@@ -24,27 +24,41 @@
   @media (min-width: $tablet-width) {
     display: none;
   }
-}
 
-.header__btn::before {
-  @media (max-width: $pre-tablet) {
-    content: "";
-    position: absolute;
-    top: 22px;
-    width: 24px;
-    height: 2px;
-    background-color: var(--black);
-    box-shadow: 0 8px 0 0 var(--black),
-    0 16px 0 0 var(--black),
+  &::before {
+    @media (max-width: $pre-tablet) {
+      content: "";
+      position: absolute;
+      top: 22px;
+      width: 24px;
+      height: 1px;
+      background-color: var(--black);
+      box-shadow: 0 8px 0 0 var(--black),
+      0 16px 0 0 var(--black);
+    }
   }
 }
 
-.header__btn--close::before {
-  content: "";
-  background-color: var(--black);
-  height: 1px;
-  width: 24.8px;
-  position: absolute;
+.header__btn--close {
+  border: none;
+  color: transparent;
+
+  &::before,
+  &::after {
+    content: "";
+    background-color: var(--black);
+    height: 1px;
+    width: 24.8px;
+    position: absolute;
+  }
+
+  &::after {
+    transform: rotate(45deg);
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+  }
 }
 
 .header {
