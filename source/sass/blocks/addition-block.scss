@@ -1,5 +1,6 @@
 .addition-block {
   margin-top: 28px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     margin-top: 68px;
@@ -94,11 +95,38 @@
 
 .addition-block__heading {
   padding-bottom: 35px;
+  position: relative;
+
+  &::after {
+    content: "";
+    top: 30%;
+    right: 0;
+    background-color: var(--green);
+    height: 2px;
+    width: 18%;
+    position: absolute;
+  }
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
     padding-bottom: 73px;
+
+    &::before {
+      content: "";
+      background-color: var(--green);
+      height: 2px;
+      position: relative;
+      width: 4.8%;
+      right: 37px;
+      left: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 42.7%;
+      left: 36px;
+  }
   }
 
   @media (min-width: $desktop-width) {
