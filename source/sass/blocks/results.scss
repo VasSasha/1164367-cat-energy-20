@@ -59,7 +59,7 @@
     width: 708px;
   }
 
-  @media (min-width: $after-mobile) and (max-width: $pre-desktop) {
+  @media (min-width: $after-tablet) and (max-width: $pre-desktop) {
     width: 960px;
   }
 }
