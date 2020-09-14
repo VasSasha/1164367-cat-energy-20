@@ -34,7 +34,7 @@
       height: 1px;
       background-color: var(--black);
       box-shadow: 0 8px 0 0 var(--black),
-      0 16px 0 0 var(--black);
+        0 16px 0 0 var(--black);
     }
   }
 }
@@ -42,6 +42,10 @@
 .header__btn--close {
   border: none;
   color: transparent;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 
   &::before,
   &::after {
@@ -66,5 +70,20 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+  }
+}
+
+.header__container {
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $after-tablet) {
+    width: 960px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
   }
 }
