@@ -1,7 +1,13 @@
 .form__note {
+  margin: 0;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  margin-top: 21px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 26px;
+  }
 }
 
 .form__paragraph {
@@ -12,11 +18,28 @@
   width: 226px;
   margin-bottom: 39px;
   margin-top: 37px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    width: 325px;
+  }
 }
 
 .form__heading {
   @media (max-width: $pre-tablet) {
     border-top: 1px solid var(--border-color);
     padding-top: 27px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 64px;
+    width: 708px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
   }
 }
