@@ -1,5 +1,7 @@
 .comment__textarea {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 4px);
   resize: none;
   height: 150px;
 }
