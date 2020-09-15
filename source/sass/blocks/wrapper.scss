@@ -1,0 +1,17 @@
+.wrapper--radio {
+  padding-top: 7px;
+  padding-bottom: 22px;
+}
+
+.wrapper--contacts {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.wrapper--contacts:nth-child(0) {
+  @media (min-width: $desktop-width) {
+    margin-right: 78px;
+  }
+}

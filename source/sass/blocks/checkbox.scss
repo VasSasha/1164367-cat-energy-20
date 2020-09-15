@@ -1,0 +1,25 @@
+.checkbox__label {
+  color: var(--special-black);
+  background-image: url("../img/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 44px;
+  background-size: 30px 30px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.checkbox {
+  display: block;
+  margin-top: 24px;
+}
+
+.checkbox__input {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+
+  &:checked + .checkbox__label {
+    background-image: url("../img/icon-tick.svg"), url("../img/icon-check.svg");
+  }
+}

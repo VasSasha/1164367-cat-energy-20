@@ -14,6 +14,7 @@
     @media (min-width: $tablet-width) {
       font-size: 60px;
       line-height: 60px;
+      text-align: left;
     }
   }
 
@@ -104,5 +105,12 @@
       padding-bottom: 109px;
       padding-top: 63px;
     }
+  }
+
+  &--form {
+    margin-bottom: 22px;
+    padding-top: 27px;
+    font-size: 24px;
+    line-height: 26px;
   }
 }

@@ -1,0 +1,27 @@
+.programme-choice::before,
+.programme-choice::after {
+  @media (max-width: $pre-tablet) {
+    content: "";
+    background-color: var(--border-color);
+    width: 100vw;
+    height: 1px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.programme-choice {
+  margin-top: 24px;
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid var(--border-color);
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    width: 46.5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}

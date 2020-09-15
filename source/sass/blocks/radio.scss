@@ -1,0 +1,22 @@
+.radio__label {
+  color: var(--special-black);
+  background-image: url("../img/icon-radio.svg");
+  background-repeat: no-repeat;
+  background-size: 23px 23px;
+  padding-left: 42px;
+}
+
+.radio {
+  display: block;
+  margin-top: 13px;
+}
+
+.radio__input {
+  opacity: 0;
+
+  &:checked + .radio__label{
+    background-image: url("../img/icon-radio-active.svg"), url("../img/icon-radio.svg");
+    background-size: 16px 16px, 23px 23px;
+    background-position: 3.8px 3.7px, 0 0;
+  }
+}
