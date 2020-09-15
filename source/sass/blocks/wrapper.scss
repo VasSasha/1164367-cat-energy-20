@@ -4,6 +4,14 @@
 }
 
 .wrapper--contacts {
-  margin-top: 32px;
-  margin-bottom: 27px;
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.wrapper--contacts:nth-child(0) {
+  @media (min-width: $desktop-width) {
+    margin-right: 78px;
+  }
 }
