@@ -37,24 +37,11 @@
   line-height: 20px;
   text-transform: uppercase;
   color: var(--new-black);
-  position: relative;
-}
-
-.more-items__paragraph::before {
-  content: "";
   background-image: url("../img/icon-plus.svg");
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: -53px;
-  left: 45%;
+  background-position: 50% 0;
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/icon-plus-tablet.svg");
-    width: 60px;
-    height: 60px;
-    top: -109px;
-    left: 35%;
   }
 }
 

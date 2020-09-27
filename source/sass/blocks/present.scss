@@ -1,5 +1,5 @@
 .present {
-  background-image: url("../img/gift-bg.png");
+  background-image: url("../img/gift-bg.jpg");
   background-size: cover;
   height: 290px;
   background-repeat: no-repeat;
@@ -10,12 +10,13 @@
     margin-bottom: 76px;
     padding-left: 80px;
     height: 200px;
+    background-image: url("../img/gift-bg-tablet.jpg");
   }
 
   @media (min-width: $desktop-width) {
-    width: 32%;
-    min-width: 32%;
+    width: 20%;
     position: absolute;
+    background-image: url("../img/gift-bg-desktop.jpg");
     margin: 0;
     top: 0;
     right: 0;
@@ -62,6 +63,6 @@
 
   @media (min-width: $desktop-width) {
     top: 56px;
-    left: 40%;
+    left: 35%;
   }
 }

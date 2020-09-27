@@ -6,10 +6,14 @@
 
   @media (max-width: $pre-tablet) {
     justify-content: space-between;
+
+    @extend .container;
   }
 
   @media (min-width: $tablet-width) {
     padding-top: 34px;
+    width: auto;
+    max-width: 200px;
   }
 
   @media (min-width: $desktop-width) {

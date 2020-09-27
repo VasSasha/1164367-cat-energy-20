@@ -1,6 +1,5 @@
 .addition-block {
   margin-top: 28px;
-  position: relative;
 
   @media (min-width: $tablet-width) {
     margin-top: 68px;
@@ -95,42 +94,46 @@
 
 .addition-block__heading {
   padding-bottom: 35px;
-  position: relative;
+  padding-left: 19px;
+  padding-right: 22px;
+  width: 226px;
+  background-color: var(--white);
+  z-index: 2;
 
-  &::after {
+  &::before {
     content: "";
-    top: 30%;
-    right: 0;
     background-color: var(--green);
     height: 2px;
-    width: 18%;
+    width: calc(100% - 248px);
+    transform: translate(-50%, -50%);
     position: absolute;
+    left: 50%;
+    top: 10px;
+    z-index: 1;
   }
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
     padding-bottom: 73px;
+    padding-left: 37px;
+    padding-right: 36px;
+    width: 420px;
 
     &::before {
-      content: "";
-      background-color: var(--green);
-      height: 2px;
-      position: relative;
-      width: 4.8%;
-      right: 37px;
-      left: 0;
+      width: calc(100% - 411px);
     }
-
-    &::after {
-      content: "";
-      width: 42.7%;
-      left: 36px;
-  }
   }
 
   @media (min-width: $desktop-width) {
     padding-bottom: 81px;
+    padding-left: 40px;
+    padding-right: 35px;
+
+    &::before {
+      width: 100vw;
+      left: 0;
+    }
   }
 }
 
@@ -140,7 +143,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 62%;
+    width: 74%;
     border-left: none;
     border-right: none;
   }

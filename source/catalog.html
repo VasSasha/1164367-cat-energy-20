@@ -9,12 +9,16 @@
   </head>
   <body>
     <header class="header header__container">
-      <div class="header-wrapper container">
+      <div class="header-wrapper">
         <a href="" class="logo logo--img">
           <img src="img/logo-img.svg">
         </a>
         <a href="" class="logo logo--name">
-          <img src="img/logo-name.svg">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="img/logo-name-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-name-tablet.svg">
+            <img src="img/logo-name.svg">
+          </picture>
         </a>
         <button class="header__btn header__btn--close">
           <span class="visually-hidden"> Открыть меню</span>
@@ -35,20 +39,24 @@
       </nav>
     </header>
     <main class="catalog-main">
-      <h1 class="heading heading--h1 heading--catalog">Каталог продукции</h1>
+      <h1 class="heading heading--h1 heading--catalog">
+      <span class="container">Каталог продукции</span>
+      </h1>
       <div class="catalog-wrapper">
       <div class="products container">
         <h2 class="visually-hidden">корм для котов Cat Enegry</h2>
         <ul class="products__list list">
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="img/chicken-small-desktop@1x.png">
-                  <sourse media="(min-width: 768px)" srcset="img/chicken-small-tablet.png">
-                  <img src="img/chicken-500.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/chicken-small-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/chicken-small-tablet.png">
+                    <img src="img/chicken-small-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry pro 500 г</a>
               <table class="table product__table">
                 <tr>
@@ -69,13 +77,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/chicken-1000.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/chicken-big-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/chicken-big-tablet.png">
+                    <img src="img/chicken-big-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry pro 1000 г</a>
               <table class="table product__table">
                 <tr>
@@ -96,13 +106,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/fish-500.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/fish-small-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/fish-small-tablet.png">
+                    <img src="img/fish-small-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry pro 500 г</a>
               <table class="table product__table">
                 <tr>
@@ -123,13 +135,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/fish-1000.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/fish-big-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/fish-big-tablet.png">
+                    <img src="img/fish-big-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry pro 1000 г</a>
               <table class="table product__table">
                 <tr>
@@ -150,13 +164,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/buckweat-500.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/buckwheat-small-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/buckwheat-small-tablet.png">
+                    <img src="img/buckwheat-small-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry slim 500 г</a>
               <table class="table product__table">
                 <tr>
@@ -177,13 +193,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/buckweat-1000.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/buckwheat-big-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/buckwheat-big-tablet.png">
+                    <img src="img/buckwheat-big-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry slim 1000 г</a>
               <table class="table product__table">
                 <tr>
@@ -204,13 +222,15 @@
           </li>
           <li>
             <article class="product">
-              <a href="" class="product__img">
-                <picture>
-                  <sourse media="(min-width: 1440px)" srcset="">
-                  <sourse media="(min-width: 768px)" srcset="">
-                  <img src="img/buckweat-1000.jpg">
-                </picture>
-              </a>
+              <div class="product__wr">
+                <a href="" class="product__img">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="img/rice-small-desktop.png">
+                    <source media="(min-width: 768px)" srcset="img/rice-small-tablet.png">
+                    <img src="img/rice-small-mobile.jpg">
+                  </picture>
+                </a>
+              </div>
               <a href="" class="product__name">Cat Enegry slim 500 г</a>
               <table class="table product__table">
                 <tr>
@@ -230,7 +250,7 @@
             </article>
           </li>
           <li>
-            <article class="product more-items">
+            <article class="product product__wr more-items">
               <span class="more-items__paragraph">Показать еще 100500 товаров</span><br>
               <span class="more-items__description">На самом деле вкусов гораздо больше!</span>
               <button class="more-items__btn button button--grey">показать все</button>
@@ -241,7 +261,7 @@
     </div>
     <div class="container add-present-wrapper">
         <div class="addition-block">
-          <h3 class="heading heading--h3 addition-block__heading">Дополнительные товары</h3>
+          <h3 class="heading heading--h3 addition-block__heading"> Дополнительные товары</h3>
           <ul class="addition__list list">
             <li>
               <article class="addition">
