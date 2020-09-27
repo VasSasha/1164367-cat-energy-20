@@ -9,14 +9,18 @@
     </head>
     <body>
         <header class="header header__container">
-          <div class="header-wrapper container">
+          <div class="header-wrapper">
             <a href="" class="logo logo--img">
               <img src="img/logo-img.svg">
             </a>
             <a href="" class="logo logo--name">
-              <img src="img/logo-name.svg">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="img/logo-name-desktop.svg">
+                <source media="(min-width: 768px)" srcset="img/logo-name-tablet.svg">
+                <img src="img/logo-name.svg">
+              </picture>
             </a>
-            <button class="header__btn--close">
+            <button class="header__btn header__btn--close">
               <span class="visually-hidden"> Открыть меню</span>
             </button>
           </div>
@@ -26,10 +30,10 @@
                 <a href="">главная</a>
               </li>
               <li class="main-nav__item nav__item">
-                <a href="catalog.html">каталог продукции</a>
+                <a href="">каталог продукции</a>
               </li>
               <li class="main-nav__item nav__item">
-                <a href="form.html">подбор программы</a>
+                <a href="">подбор программы</a>
               </li>
             </ul>
           </nav>
