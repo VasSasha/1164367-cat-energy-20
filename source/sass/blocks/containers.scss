@@ -1,4 +1,4 @@
-.container {
+@mixin container {
   margin: 0 auto;
   width: 280px;
   display: block;
@@ -14,4 +14,8 @@
   @media (min-width: $desktop-width) {
     width: 1220px;
   }
+}
+
+.container {
+  @include container;
 }

@@ -7,7 +7,7 @@
   @media (max-width: $pre-tablet) {
     justify-content: space-between;
 
-    @extend .container;
+    @include container;
   }
 
   @media (min-width: $tablet-width) {
