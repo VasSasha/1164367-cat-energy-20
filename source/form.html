@@ -47,29 +47,29 @@
                   <fieldset class="pet-data fieldset">
                     <label class="field">
                       <span class="label field__label">ИМЯ:*</span>
-                      <input type="text" placeholder="барсик" class="field__input">
+                      <input type="text" placeholder="барсик" name="name" class="field__input">
                     </label>
                     <label class="field">
                       <span class="label field__label">Вес (кг):*</span>
-                      <input type="number" placeholder="7" max="25" min="1" class="field__input">
+                      <input type="number" placeholder="7" name="weight" max="25" min="1" class="field__input">
                     </label>
                     <label class="field">
                       <span class="label field__label">Возраст (лет):</span>
-                      <input type="number" placeholder="7" max="20" min="1" class="field__input">
+                      <input type="number" placeholder="7" name="age" max="20" min="1" class="field__input">
                     </label>
                   </fieldset>
                   <fieldset class="programme-choice fieldset">
                     <div class="wrapper wrapper--radio">
                         <label class="radio">
-                            <input type="radio" class="radio__input visually-hidden" name="radio-choice">
+                            <input type="radio" class="radio__input visually-hidden" name="programme-choice">
                             <span class="label radio__label">похудение</span>
                         </label>
                         <label class="radio">
-                            <input type="radio" class="radio__input visually-hidden" name="radio-choice">
+                            <input type="radio" class="radio__input visually-hidden" name="programme-choice">
                             <span class="label radio__label">Набор массы</span>
                         </label>
                         <label class="radio">
-                            <input type="radio" class="radio__inpu visually-hidden" name="radio-choice">
+                            <input type="radio" class="radio__inpu visually-hidden" name="programme-choice">
                             <span class="label radio__label">Не знаю (Нужен ваш совет)</span>
                         </label>
                       </div>
@@ -81,13 +81,13 @@
                     <div class="wrapper wrapper--contacts">
                       <label class="contacts__field field">
                           <span class="label field__label">E-mail:*</span>
-                          <input type="email" placeholder="kuklachev@gmail.com" class="field__input contacts__mail">
+                          <input type="email" placeholder="kuklachev@gmail.com" class="field__input contacts__mail" name="email">
                           <div class="contacts__icon contacts__icon--mail">
                           </div>
                       </label>
                       <label class="contacts__field field">
                           <span class="label field__label">Телефон:*</span>
-                          <input type="tel" placeholder="8 (960) 900-60-90" class="field__input contacts__phone">
+                          <input type="tel" placeholder="8 (960) 900-60-90" class="field__input contacts__phone" name="phone">
                           <div class="contacts__icon contacts__icon--phone">
                           </div>
                       </label>
