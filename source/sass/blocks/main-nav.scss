@@ -10,6 +10,7 @@
 
 .main-nav {
   order: 1;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
     padding-top: 50px;
@@ -34,7 +35,7 @@
 }
 
 @media (max-width: $pre-tablet) {
-  .nav__list--hidden {
+  .main-nav--hidden {
     display: none;
   }
 }
@@ -63,5 +64,17 @@
   @media (min-width: $tablet-width) {
     padding-left: 14px;
     padding-right: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__list--white a {
+    color: var(--white);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__list--white .nav__item--current {
+    border-bottom: 2px solid var(--white);
   }
 }

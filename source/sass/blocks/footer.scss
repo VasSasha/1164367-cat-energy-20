@@ -1,6 +1,7 @@
 .footer__logo {
+  display: flex;
+  justify-content: center;
   margin-top: 39px;
-  margin-left: 34%;
 
   @media (min-width: $tablet-width) {
     margin-top: 0;

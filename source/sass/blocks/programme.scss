@@ -6,20 +6,26 @@
   @media (min-width: $desktop-width) {
     display: flex;
     gap: 5.5%;
+    margin-top: 122px;
   }
 }
 
 .programmes__list li {
+  margin-top: 20px;
+
   @media (min-width: $desktop-width) {
     height: 374px;
     width: 100%;
   }
 }
 
+.programmes__list:nth-child(1) {
+  margin-top: 0;
+}
+
 .programme {
   background-color: var(--background);
   padding-left: 20px;
-  margin-top: 20px;
   padding-bottom: 22px;
   background-repeat: no-repeat;
   background-position: 92% 50%;
@@ -79,12 +85,12 @@
   text-transform: uppercase;
   color: var(--black);
   text-align: left;
-  padding-top: 19px;
+  margin-top: 19px;
   padding-right: 17px;
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding-top: 52px;
+    margin-top: 52px;
     font-size: 20px;
     padding-right: 25px;
   }
@@ -96,10 +102,11 @@
   width: 32px;
   height: 10px;
   position: absolute;
-  left: 101px;
-  top: 60%;
+  left: 110px;
+  transform: translate(-50%, -50%);
+  top: 50%;
 
   @media (min-width: $tablet-width) {
-    left: 129px;
+    left: 139px;
   }
 }

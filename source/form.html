@@ -20,19 +20,19 @@
                 <img src="img/logo-name.svg">
               </picture>
             </a>
-            <button class="header__btn header__btn--close">
+            <button class="header__btn">
               <span class="visually-hidden"> Открыть меню</span>
             </button>
           </div>
-          <nav class="main-nav main-nav--nojs">
+          <nav class="main-nav">
             <ul class="main-nav__list list">
+              <li class="main-nav__item nav__item">
+                <a href="index.html">главная</a>
+              </li>
+              <li class="main-nav__item nav__item">
+                <a href="catalog.html">каталог продукции</a>
+              </li>
               <li class="main-nav__item nav__item nav__item--current">
-                <a href="">главная</a>
-              </li>
-              <li class="main-nav__item nav__item">
-                <a href="">каталог продукции</a>
-              </li>
-              <li class="main-nav__item nav__item">
                 <a href="">подбор программы</a>
               </li>
             </ul>
@@ -79,13 +79,17 @@
                     <legend class="heading heading--form">Контактные данные
                     (владельца кота)</legend>
                     <div class="wrapper wrapper--contacts">
-                      <label class="field">
+                      <label class="contacts__field field">
                           <span class="label field__label">E-mail:*</span>
                           <input type="email" placeholder="kuklachev@gmail.com" class="field__input contacts__mail">
+                          <div class="contacts__icon contacts__icon--mail">
+                          </div>
                       </label>
-                      <label class="field">
+                      <label class="contacts__field field">
                           <span class="label field__label">Телефон:*</span>
                           <input type="tel" placeholder="8 (960) 900-60-90" class="field__input contacts__phone">
+                          <div class="contacts__icon contacts__icon--phone">
+                          </div>
                       </label>
                     </div>
                 </fieldset>
@@ -137,7 +141,7 @@
       </div>
       <div class="footer-wrapper container">
         <a href="" class="logo logo--name footer__logo">
-          <img src="img/logo-name.png">
+          <img src="img/footer-logo.svg">
         </a>
         <ul class="networks list">
           <li class="networks__link networks__link--vk">

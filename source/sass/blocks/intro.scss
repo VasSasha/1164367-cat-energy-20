@@ -1,11 +1,28 @@
 .intro {
   height: 480px;
-  position: relative;
   width: 100%;
 
-  @media (min-width: $tablet-width) {
-    margin-top: 62px;
-    background-image: url(""), url("");
+  &::after {
+    @media (min-width: $desktop-width) {
+      content: "";
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      right: 0;
+      height: 696px;
+      width: 50%;
+      min-width: 720px;
+      background-repeat: no-repeat;
+      background-image: url("../img/index-background-desktop.png");
+    }
+  }
+
+  @media (min-width: $tablet-width) and (max-width: $pre-desktop) {
+    padding-top: 62px;
+    background-repeat: no-repeat;
+    background-image: url("../img/index-can-tablet.png");
+    height: 910px;
+    background-position: 0 110%;
   }
 }
 
@@ -15,6 +32,18 @@
     background-repeat: no-repeat;
     height: 270px;
     width: 280px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    right: 190px;
+    top: 0;
+    z-index: 2;
+    background-image: url("../img/indexcan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

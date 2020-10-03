@@ -6,6 +6,10 @@
   @media (min-width: $tablet-width) {
     text-align: right;
   }
+
+  @media (min-width: $after-tablet) {
+    text-align: left;
+  }
 }
 
 .location__heading {
@@ -38,7 +42,7 @@
     padding-bottom: 48px;
   }
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $after-tablet) {
     background-color: var(--white);
     width: 39.5%;
     height: 201px;

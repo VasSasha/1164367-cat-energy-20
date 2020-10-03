@@ -2,4 +2,8 @@
   @media (max-width: $pre-tablet) {
     margin-top: 44px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 82px;
+  }
 }

@@ -1,6 +1,7 @@
 .results__switcher {
   margin-top: 17px;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .results__switcher input {
@@ -11,14 +12,21 @@
   }
 }
 
-@media (max-width: 767px) {
-  .results__photo--hidden {
-    display: none;
-  }
+.results__img--hidden {
+  display: none;
+}
+
+.results__img {
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  left: 50%;
 }
 
 .results__photo {
   text-align: center;
+  position: relative;
+  min-height: 230px;
 }
 
 .results__switcher span {

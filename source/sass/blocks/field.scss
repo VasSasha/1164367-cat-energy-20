@@ -8,6 +8,10 @@
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
 }
 
 .field__input {
